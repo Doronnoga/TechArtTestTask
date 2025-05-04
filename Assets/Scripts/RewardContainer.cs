@@ -41,16 +41,24 @@ public class RewardContainer : MonoBehaviour, IPointerDownHandler
             currentRewardIndex = 0;
         }
 
-        _cashValue.text = _rewards[currentRewardIndex].Cash.ToString();
-        _cash.gameObject.SetActive(_rewards[currentRewardIndex].Cash > 0);
-        _plus.gameObject.SetActive(_rewards[currentRewardIndex].Cash > 0);//added
-        _gemValue.text = _rewards[currentRewardIndex].Gem.ToString();
-        _gem.gameObject.SetActive(_rewards[currentRewardIndex].Gem > 0);
-        _plus2.gameObject.SetActive(_rewards[currentRewardIndex].Gem > 0);//added
-        _xpValue.text = _rewards[currentRewardIndex].Xp.ToString();
-        _xp.gameObject.SetActive(_rewards[currentRewardIndex].Xp > 0);
-        _plus2.gameObject.SetActive(_rewards[currentRewardIndex].Xp > 0);//added
+        var reward = _rewards[currentRewardIndex];
 
+        bool cashActive = reward.Cash > 0;
+        bool gemActive = reward.Gem > 0;
+        bool xpActive = reward.Xp > 0;
+
+        _cashValue.text = reward.Cash.ToString();
+        _cash.SetActive(cashActive);
+
+        _gemValue.text = reward.Gem.ToString();
+        _gem.SetActive(gemActive);
+
+        _xpValue.text = reward.Xp.ToString();
+        _xp.SetActive(xpActive);
+
+        // added
+        _plus.SetActive(cashActive && gemActive);
+        _plus2.SetActive(gemActive && xpActive);
     }
 
     public class Reward
