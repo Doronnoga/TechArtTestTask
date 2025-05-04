@@ -1,11 +1,11 @@
 version: 2
 tpsheetFileNames:
-- Assets/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
 - Assets/Sprites/BarsTP.tpsheet
+- Assets/Sprites/QuestTP.tpsheet
 textureFileNames:
-- Assets/codeandweb.com/Example/SpriteSheet/sprites.png
 - Assets/Sprites/BarsTP.png
+- Assets/Sprites/QuestTP.png
 normalmapFileNames:
-- Assets/codeandweb.com/Example/SpriteSheet/sprites_n.png
+- 
 - 
 enableDebugOutput: 0

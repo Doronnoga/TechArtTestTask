@@ -1,43 +1,46 @@
 fileFormatVersion: 2
-guid: fb54067b9ff6ec5499b23ae093c4b88b
+guid: c22cffece9ad66a45bdaf9fc379bdaf7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8180822409863196568
-    second: BarBackground
+      213: -1637594208121799827
+    second: qst_box_lid
   - first:
-      213: -6520354671937958569
-    second: BarBody
+      213: -6795039432634939060
+    second: qst_box_open
   - first:
-      213: 805927412811344839
-    second: BarHeader
+      213: 1198959321947857715
+    second: qst_stage
   - first:
-      213: -6625546323735269794
-    second: CurrencyIcon
+      213: 9041857389144095047
+    second: qst_stage_box-n
   - first:
-      213: -6661618111903677853
-    second: Footer
+      213: 2077634759898694229
+    second: qst_stage_box-y
   - first:
-      213: -1253901047780903724
-    second: GemIcon
+      213: 3150517654261891774
+    second: qst_stage_gbox_lid-y
   - first:
-      213: 4170042480069444502
-    second: qst_rope_right
+      213: 8481988277091481666
+    second: qst_stage_gbox_open-y
   - first:
-      213: 2650324769021869347
-    second: qst_timer-r
+      213: -2465373735010624920
+    second: qst_stage_gbox-y
   - first:
-      213: -4339235523599406173
-    second: rc_cash_icon
+      213: 9003094210714229682
+    second: qst_stage_progressbar_bg
   - first:
-      213: -4101242079944768693
-    second: WheelIcon
+      213: 9206287109135756724
+    second: qst_stage_progressbar_fill
   - first:
-      213: 170321959730871862
-    second: x_btn
+      213: 6024856457867605716
+    second: qst_stage_Vmark
   - first:
-      213: 3771801092629643244
-    second: xp_icon_B
+      213: -4756036060642311841
+    second: qst_stage-a
+  - first:
+      213: 5197340336529201737
+    second: rays
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -79,7 +82,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -140,181 +143,55 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BarBackground
+      name: qst_box_lid
       rect:
         serializedVersion: 2
-        x: 65
-        y: 458
-        width: 281
-        height: 294
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 80, y: 0, z: 80, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 89f637e43ae188170800000000000000
-      internalID: 8180822409863196568
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BarBody
-      rect:
-        serializedVersion: 2
-        x: 4
-        y: 757
-        width: 956
-        height: 263
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 460, y: 0, z: 460, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 75d4491e8fb0385a0800000000000000
-      internalID: -6520354671937958569
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BarHeader
-      rect:
-        serializedVersion: 2
-        x: 415
-        y: 669
-        width: 411
-        height: 83
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 170, y: 0, z: 170, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7cbae5346ba3f2b00800000000000000
-      internalID: 805927412811344839
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CurrencyIcon
-      rect:
-        serializedVersion: 2
-        x: 831
-        y: 644
-        width: 132
-        height: 108
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 357
+        y: 841
+        width: 253
+        height: 179
+      alignment: 9
+      pivot: {x: 0.5059289, y: 0.49720672}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e5e2dd2e8b45d04a0800000000000000
-      internalID: -6625546323735269794
+      spriteID: d6bb9aa7eb81649e0800000000000000
+      internalID: -1637594208121799827
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Footer
+      name: qst_box_open
       rect:
         serializedVersion: 2
-        x: 4
-        y: 49
-        width: 406
-        height: 340
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 150, y: 0, z: 150, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3624caa3f9d2d83a0800000000000000
-      internalID: -6661618111903677853
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GemIcon
-      rect:
-        serializedVersion: 2
-        x: 575
-        y: 497
-        width: 84
-        height: 84
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 320
+        y: 22
+        width: 312
+        height: 304
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5065789}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4d47787f3af399ee0800000000000000
-      internalID: -1253901047780903724
+      spriteID: c49c50f33ab23b1a0800000000000000
+      internalID: -6795039432634939060
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: qst_rope_right
+      name: qst_stage
       rect:
         serializedVersion: 2
-        x: 4
-        y: 394
-        width: 56
-        height: 358
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 69304d2ba87fed930800000000000000
-      internalID: 4170042480069444502
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: qst_timer-r
-      rect:
-        serializedVersion: 2
-        x: 575
-        y: 586
-        width: 100
-        height: 78
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 25, y: 0, z: 64, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 32db7fcd558d7c420800000000000000
-      internalID: 2650324769021869347
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rc_cash_icon
-      rect:
-        serializedVersion: 2
-        x: 351
-        y: 394
+        x: 872
+        y: 707
         width: 128
-        height: 116
+        height: 104
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -322,20 +199,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3abe9131840f7c3c0800000000000000
-      internalID: -4339235523599406173
+      spriteID: 33368d4a62f83a010800000000000000
+      internalID: 1198959321947857715
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WheelIcon
+      name: qst_stage_box-n
       rect:
         serializedVersion: 2
-        x: 351
-        y: 515
-        width: 114
-        height: 124
+        x: 638
+        y: 587
+        width: 228
+        height: 224
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -343,20 +220,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b43020fbe067517c0800000000000000
-      internalID: -4101242079944768693
+      spriteID: 749bcadb3612b7d70800000000000000
+      internalID: 9041857389144095047
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: x_btn
+      name: qst_stage_box-y
       rect:
         serializedVersion: 2
-        x: 470
-        y: 539
-        width: 100
-        height: 100
+        x: 4
+        y: 21
+        width: 310
+        height: 305
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -364,20 +241,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 63ef4338bea1d5200800000000000000
-      internalID: 170321959730871862
+      spriteID: 55204cc6ecd35dc10800000000000000
+      internalID: 2077634759898694229
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: xp_icon_B
+      name: qst_stage_gbox_lid-y
       rect:
         serializedVersion: 2
-        x: 680
-        y: 573
-        width: 93
-        height: 91
+        x: 638
+        y: 817
+        width: 254
+        height: 203
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5221675}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb280e84d13e8bb20800000000000000
+      internalID: 3150517654261891774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: qst_stage_gbox_open-y
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 332
+        width: 316
+        height: 322
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -385,8 +283,134 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cefbe912c11285430800000000000000
-      internalID: 3771801092629643244
+      spriteID: 248b015066316b570800000000000000
+      internalID: 8481988277091481666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: qst_stage_gbox-y
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 660
+        width: 347
+        height: 360
+      alignment: 9
+      pivot: {x: 0.50144094, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86a1d1e66ab39cdd0800000000000000
+      internalID: -2465373735010624920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: qst_stage_progressbar_bg
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 661
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bb5ff4fb7a61fc70800000000000000
+      internalID: 9003094210714229682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: qst_stage_progressbar_fill
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 362
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bd6b48495d43cf70800000000000000
+      internalID: 9206287109135756724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: qst_stage_Vmark
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 683
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d6bae107079c9350800000000000000
+      internalID: 6024856457867605716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: qst_stage-a
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 731
+        width: 128
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f518772c66a2ffdb0800000000000000
+      internalID: -4756036060642311841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rays
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 388
+        width: 267
+        height: 266
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94ad1a7df79a02840800000000000000
+      internalID: 5197340336529201737
       vertices: []
       indices: 
       edges: []
@@ -394,7 +418,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
