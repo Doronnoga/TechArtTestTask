@@ -13,6 +13,8 @@ public class RewardContainer : MonoBehaviour, IPointerDownHandler
     [SerializeField] private GameObject _cash;
     [SerializeField] private GameObject _gem;
     [SerializeField] private GameObject _xp;
+    [SerializeField] private GameObject _plus;
+    [SerializeField] private GameObject _plus2;
 
     private List<Reward> _rewards = new List<Reward>
     {
@@ -40,11 +42,15 @@ public class RewardContainer : MonoBehaviour, IPointerDownHandler
         }
 
         _cashValue.text = _rewards[currentRewardIndex].Cash.ToString();
-        _cashValue.gameObject.SetActive(_rewards[currentRewardIndex].Cash > 0);
+        _cash.gameObject.SetActive(_rewards[currentRewardIndex].Cash > 0);
+        _plus.gameObject.SetActive(_rewards[currentRewardIndex].Cash > 0);//added
         _gemValue.text = _rewards[currentRewardIndex].Gem.ToString();
-        _gemValue.gameObject.SetActive(_rewards[currentRewardIndex].Gem > 0);
+        _gem.gameObject.SetActive(_rewards[currentRewardIndex].Gem > 0);
+        _plus2.gameObject.SetActive(_rewards[currentRewardIndex].Gem > 0);//added
         _xpValue.text = _rewards[currentRewardIndex].Xp.ToString();
-        _xpValue.gameObject.SetActive(_rewards[currentRewardIndex].Xp > 0);
+        _xp.gameObject.SetActive(_rewards[currentRewardIndex].Xp > 0);
+        _plus2.gameObject.SetActive(_rewards[currentRewardIndex].Xp > 0);//added
+
     }
 
     public class Reward
