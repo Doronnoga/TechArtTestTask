@@ -1,0 +1,28 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:2f0dd78e41d02ec4dc44ff156fa0f475:bafc70f1c1c3c02d4cb5d007c89ca777:08eeaf432404408e5bffa53d93a1b5d2$
+#
+:format=40300
+:texture=QuestTP.png
+:size=1024x1024
+:pivotpoints=enabled
+:borders=disabled
+:alphahandling=ClearTransparentPixels
+
+qst_box_lid;357;841;253;179; 0.5059288537549407;0.4972067039106145; 0;0;0;0
+qst_box_open;320;22;312;304; 0.5;0.506578947368421; 0;0;0;0
+qst_stage-a;491;731;128;104; 0.5;0.5; 0;0;0;0
+qst_stage;872;707;128;104; 0.5;0.5; 0;0;0;0
+qst_stage_box-n;638;587;228;224; 0.5;0.5; 0;0;0;0
+qst_stage_box-y;4;21;310;305; 0.5;0.5; 0;0;0;0
+qst_stage_gbox-y;4;660;347;360; 0.5014409221902018;0.5; 0;0;0;0
+qst_stage_gbox_lid-y;638;817;254;203; 0.5;0.5221674876847291; 0;0;0;0
+qst_stage_gbox_open-y;4;332;316;322; 0.5;0.5; 0;0;0;0
+qst_stage_progressbar_bg;491;661;64;64; 0.5;0.5; 0;0;0;0
+qst_stage_progressbar_fill;326;362;26;20; 0.5;0.5; 0;0;0;0
+qst_stage_Vmark;357;683;128;128; 0.5;0.5; 0;0;0;0
+rays;326;388;267;266; 0.5;0.5; 0;0;0;0
