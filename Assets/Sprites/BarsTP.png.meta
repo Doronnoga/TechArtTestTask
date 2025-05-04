@@ -38,6 +38,9 @@ TextureImporter:
   - first:
       213: 3771801092629643244
     second: xp_icon_B
+  - first:
+      213: -4719573781820268258
+    second: BottomHeader
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -140,27 +143,6 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BarBackground
-      rect:
-        serializedVersion: 2
-        x: 65
-        y: 458
-        width: 281
-        height: 294
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 80, y: 0, z: 80, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 89f637e43ae188170800000000000000
-      internalID: 8180822409863196568
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: BarBody
       rect:
         serializedVersion: 2
@@ -198,6 +180,27 @@ TextureImporter:
       bones: []
       spriteID: 7cbae5346ba3f2b00800000000000000
       internalID: 805927412811344839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BottomHeader
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 581
+        width: 411
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 170, y: 0, z: 170, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e112b5b96a4b08eb0800000000000000
+      internalID: -4719573781820268258
       vertices: []
       indices: 
       edges: []
@@ -248,8 +251,8 @@ TextureImporter:
       name: GemIcon
       rect:
         serializedVersion: 2
-        x: 575
-        y: 497
+        x: 198
+        y: 668
         width: 84
         height: 84
       alignment: 0
@@ -290,8 +293,8 @@ TextureImporter:
       name: qst_timer-r
       rect:
         serializedVersion: 2
-        x: 575
-        y: 586
+        x: 289
+        y: 674
         width: 100
         height: 78
       alignment: 0
@@ -311,8 +314,8 @@ TextureImporter:
       name: rc_cash_icon
       rect:
         serializedVersion: 2
-        x: 351
-        y: 394
+        x: 65
+        y: 636
         width: 128
         height: 116
       alignment: 0
@@ -332,8 +335,8 @@ TextureImporter:
       name: WheelIcon
       rect:
         serializedVersion: 2
-        x: 351
-        y: 515
+        x: 65
+        y: 452
         width: 114
         height: 124
       alignment: 0
@@ -353,8 +356,8 @@ TextureImporter:
       name: x_btn
       rect:
         serializedVersion: 2
-        x: 470
-        y: 539
+        x: 184
+        y: 476
         width: 100
         height: 100
       alignment: 0
@@ -374,8 +377,8 @@ TextureImporter:
       name: xp_icon_B
       rect:
         serializedVersion: 2
-        x: 680
-        y: 573
+        x: 289
+        y: 578
         width: 93
         height: 91
       alignment: 0
