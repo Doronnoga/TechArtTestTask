@@ -25,11 +25,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2043401945838862072, guid: 41cae370252f7d041be7f765d9ce6e64, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2043401945838862072, guid: 41cae370252f7d041be7f765d9ce6e64, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2683764208678309217, guid: 41cae370252f7d041be7f765d9ce6e64, type: 3}
       propertyPath: m_SizeDelta.x
@@ -153,7 +153,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2683764210269915189, guid: 41cae370252f7d041be7f765d9ce6e64, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2857822811613156536, guid: 41cae370252f7d041be7f765d9ce6e64, type: 3}
       propertyPath: m_TargetGraphic
@@ -163,5 +163,9 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -2465373735010624920, guid: c22cffece9ad66a45bdaf9fc379bdaf7, type: 3}
+    - target: {fileID: 7577167076202883082, guid: 41cae370252f7d041be7f765d9ce6e64, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 22100000, guid: 66ba1637a9f53cc42be0f49fdece0f6c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 41cae370252f7d041be7f765d9ce6e64, type: 3}

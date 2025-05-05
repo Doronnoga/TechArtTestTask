@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: GrandPrizeOverride
+  m_Controller: {fileID: 9100000, guid: 167616cbbc04ecf4d81a97701cbbd1f7, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: d2ffdb8cf5612ba4ca0b189a93bd7d75, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: d2ffdb8cf5612ba4ca0b189a93bd7d75, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: d3e168a567a556041b32144f6d6a9454, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: a142b6e97aad379458dacadef5142060, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: c4ca066e9aedccf4abdbdc27ce27a123, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: c4ca066e9aedccf4abdbdc27ce27a123, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: a142b6e97aad379458dacadef5142060, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: a142b6e97aad379458dacadef5142060, type: 2}
