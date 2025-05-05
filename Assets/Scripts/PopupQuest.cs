@@ -12,7 +12,7 @@ public class PopupQuest : MonoBehaviour
     
     void Start()
     {
-        _missionHeader.text = $"Level {Random.Range(1, 15)} \"Lorem Ipsum\"";
+        _missionHeader.text = $"Level {Random.Range(1, 15)} \"Noga's Test :)\"";
     }
 
 
